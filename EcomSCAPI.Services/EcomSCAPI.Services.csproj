@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Paystack.Net" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EcomSCAPI.Common\EcomSCAPI.Common.csproj" />
+    <ProjectReference Include="..\EcomSCAPI.DataAccess\EcomSCAPI.DataAccess.csproj" />
+    <ProjectReference Include="..\EcomSCAPI.Model\EcomSCAPI.Models.csproj" />
+  </ItemGroup>
+
+</Project>
